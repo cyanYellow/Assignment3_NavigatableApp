@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F70574E2AAFA4FD002C6108 /* Project3_NavigatableAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F70574D2AAFA4FD002C6108 /* Project3_NavigatableAppApp.swift */; };
+		8F70574E2AAFA4FD002C6108 /* Project3_NavigatableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F70574D2AAFA4FD002C6108 /* Project3_NavigatableApp.swift */; };
 		8F7057502AAFA4FD002C6108 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F70574F2AAFA4FD002C6108 /* ContentView.swift */; };
 		8F7057522AAFA4FE002C6108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7057512AAFA4FE002C6108 /* Assets.xcassets */; };
 		8F7057552AAFA4FE002C6108 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7057542AAFA4FE002C6108 /* Preview Assets.xcassets */; };
+		8F70575E2AB29BBA002C6108 /* AlbumPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F70575D2AB29BBA002C6108 /* AlbumPageView.swift */; };
+		8F7057602AB29CA1002C6108 /* RecentPhotosPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F70575F2AB29CA1002C6108 /* RecentPhotosPageView.swift */; };
+		8F7057622AB29E33002C6108 /* AllPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7057612AB29E33002C6108 /* AllPhotosView.swift */; };
+		8F7057642AB2AC1E002C6108 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7057632AB2AC1E002C6108 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F70574A2AAFA4FD002C6108 /* Project3_NavigatableApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3_NavigatableApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F70574D2AAFA4FD002C6108 /* Project3_NavigatableAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3_NavigatableAppApp.swift; sourceTree = "<group>"; };
+		8F70574D2AAFA4FD002C6108 /* Project3_NavigatableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3_NavigatableApp.swift; sourceTree = "<group>"; };
 		8F70574F2AAFA4FD002C6108 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F7057512AAFA4FE002C6108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F7057542AAFA4FE002C6108 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F70575D2AB29BBA002C6108 /* AlbumPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPageView.swift; sourceTree = "<group>"; };
+		8F70575F2AB29CA1002C6108 /* RecentPhotosPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentPhotosPageView.swift; sourceTree = "<group>"; };
+		8F7057612AB29E33002C6108 /* AllPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPhotosView.swift; sourceTree = "<group>"; };
+		8F7057632AB2AC1E002C6108 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		8F70574C2AAFA4FD002C6108 /* Project3_NavigatableApp */ = {
 			isa = PBXGroup;
 			children = (
-				8F70574D2AAFA4FD002C6108 /* Project3_NavigatableAppApp.swift */,
+				8F70574D2AAFA4FD002C6108 /* Project3_NavigatableApp.swift */,
 				8F70574F2AAFA4FD002C6108 /* ContentView.swift */,
+				8F7057612AB29E33002C6108 /* AllPhotosView.swift */,
+				8F70575D2AB29BBA002C6108 /* AlbumPageView.swift */,
+				8F70575F2AB29CA1002C6108 /* RecentPhotosPageView.swift */,
+				8F7057632AB2AC1E002C6108 /* ImagePicker.swift */,
 				8F7057512AAFA4FE002C6108 /* Assets.xcassets */,
 				8F7057532AAFA4FE002C6108 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F7057502AAFA4FD002C6108 /* ContentView.swift in Sources */,
-				8F70574E2AAFA4FD002C6108 /* Project3_NavigatableAppApp.swift in Sources */,
+				8F7057602AB29CA1002C6108 /* RecentPhotosPageView.swift in Sources */,
+				8F7057622AB29E33002C6108 /* AllPhotosView.swift in Sources */,
+				8F7057642AB2AC1E002C6108 /* ImagePicker.swift in Sources */,
+				8F70575E2AB29BBA002C6108 /* AlbumPageView.swift in Sources */,
+				8F70574E2AAFA4FD002C6108 /* Project3_NavigatableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Project3_NavigatableApp/Preview Content\"";
+				DEVELOPMENT_TEAM = N2QM4294Q7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Project3_NavigatableApp/Preview Content\"";
+				DEVELOPMENT_TEAM = N2QM4294Q7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

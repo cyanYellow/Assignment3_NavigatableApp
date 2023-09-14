@@ -8,16 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var IsPickerShowing = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+
+            TabView{
+                RecentPhotosPageView()
+                    .tabItem {
+                        Text("Recent")
+                    }
+                AlbumPageView()
+                    .tabItem {
+                        Text("Albums")
+                    }
+                AllPhotosView()
+                    .tabItem {
+                        Text("All")
+                    }
+            }
         }
-        .padding()
     }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
